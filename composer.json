@@ -1,0 +1,32 @@
+{
+  "name": "lukasniestroj/critical-css",
+  "type": "typo3-cms-extension",
+  "description": "load css asynchronously for better mobile performance",
+  "keywords": [
+    "TYPO3",
+    "lighthouse",
+    "critical css"
+  ],
+  "authors": [
+    {
+      "name": "Lukas Niestroj",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "typo3/cms-core": "^8.7 || ^9.5 || ^10.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "LukasNiestroj\\CriticalCss\\": "Classes"
+    }
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "critical-css"
+    }
+  },
+  "license": [
+    "GPL-2.0-or-later"
+  ]
+}
