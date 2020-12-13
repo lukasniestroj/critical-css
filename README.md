@@ -3,7 +3,6 @@
 ## Some advice
 
 * this extension does not generate critical css for you!
-* 
 
 ## Features
 
@@ -18,8 +17,10 @@ composer require lukasniestroj/critical-css
 
 ## Configuration
 
-If you install this extension every CSS file references in typoscript will be loaded asynchronously.
+If you install this extension every CSS file referenced in typoscript will be loaded asynchronously.
+
 I advice you to mark your "critical" css file with the property critical=1. 
+
 This will exclude the css file from loading asynchronously. Otherwise your website users will see a screen flicker based on their connection.   
 
 ## Example
